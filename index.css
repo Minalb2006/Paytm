@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid black;
+    background-color: aqua;
+    display:grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,1fr);
+}
+.nav{
+    grid-column: 1/11;
+    grid-row: 1/2;
+    background-color: #efff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    font-family: Inter, sans-serif;
+    box-shadow: 20px 20px 60px #a4bbde;
+    
+}
+.items:hover{
+    box-shadow: red;
+    border: #000;
+    background-color: rgh(159,243,243);
+
+}
+.hero{
+    grid-column: 1/11;
+    grid-row: 2/6;
+    display: flex;
+    margin: top;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 37px;
+}
+.Recharges{
+    border: 2px solid black;
+    height: 40vh;
+    width: 35vh;
+    margin: right;
+    padding: 6px;
+    display: flex;
+    border-radius: 20px;
+    display: block;
+    unicode-bidi: isolate;
+    background: #cfcfcf;
+}
